@@ -227,6 +227,10 @@
     <Compile Include="Migrations\202505070339095_Init.Designer.cs">
       <DependentUpon>202505070339095_Init.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202505082252486_ReduceStringLength.cs" />
+    <Compile Include="Migrations\202505082252486_ReduceStringLength.Designer.cs">
+      <DependentUpon>202505082252486_ReduceStringLength.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Address.cs" />
     <Compile Include="Model\Client.cs" />
@@ -273,6 +277,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202505070339095_Init.resx">
       <DependentUpon>202505070339095_Init.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202505082252486_ReduceStringLength.resx">
+      <DependentUpon>202505082252486_ReduceStringLength.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
